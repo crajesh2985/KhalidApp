@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        style="@style/TitleLabelStyle"
+        android:text="@string/str_check_list_to_be_done" />
+
+    <View style="@style/TitleLineStyle" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="right|bottom">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                style="@style/PilotCheckBoxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:visibility="invisible" />
+
+            <com.app.pilot.component.WatermarkTextView
+                style="@style/WaterMarkLableStyle"
+                android:text="@string/str_check" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                style="@style/PilotCheckBoxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:visibility="invisible" />
+
+            <com.app.pilot.component.WatermarkTextView
+                style="@style/WaterMarkLableStyle"
+                android:text="@string/str_recharge" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                style="@style/PilotCheckBoxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:visibility="invisible" />
+
+            <com.app.pilot.component.WatermarkTextView
+                style="@style/WaterMarkLableStyle"
+                android:text="@string/str_add" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                style="@style/PilotCheckBoxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:visibility="invisible" />
+
+            <com.app.pilot.component.WatermarkTextView
+                style="@style/WaterMarkLableStyle"
+                android:text="@string/str_change" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <CheckBox
+                style="@style/PilotCheckBoxStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="1dp"
+                android:visibility="invisible" />
+
+            <com.app.pilot.component.WatermarkTextView
+                style="@style/WaterMarkLableStyle"
+                android:text="@string/str_clean" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:paddingBottom="10dp"
+        android:scrollbars="vertical" />
+
+    <Button
+        android:id="@+id/step_2_next_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/str_next" />
+
+</LinearLayout>

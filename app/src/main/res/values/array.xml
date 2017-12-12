@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="checkbox_task_list_array">
+        <item>Battery</item>
+        <item>Radiator Guard</item>
+        <item>Radiator</item>
+        <item>Battery Box</item>
+        <item>Engine Oil</item>
+        <item>Driveshaft Bolts</item>
+        <item>Oil Filter</item>
+        <item>Battery Terminal</item>
+        <item>Fuel Filter</item>
+        <item>Safety Guard</item>
+        <item>Air Filter</item>
+        <item>C.V Breater filter</item>
+    </string-array>
+
+    <string-array name="spinner_task_list_array">
+        <item>Accelerator Check</item>
+        <item>Copper Tubing</item>
+        <item>Muffler Rain Cap</item>
+        <item>Radiator Cap</item>
+        <item>Alternator</item>
+        <item>Copper Tubing Value</item>
+        <item>Batter box</item>
+        <item>Turbo Charger</item>
+        <item>Clutch Grease Hose</item>
+        <item>Engine Skid Welded</item>
+        <item>Access Way job Location</item>
+    </string-array>
+
+    <string-array name="batterbox_list_array">
+        <item>Select</item>
+        <item>New Design</item>
+        <item>Old Design</item>
+    </string-array>
+
+    <string-array name="coppertubingvalue_list_array">
+        <item>Select</item>
+        <item>Adjust</item>
+        <item>Replace</item>
+        <item>Repair</item>
+    </string-array>
+
+    <string-array name="alternator_list_array">
+        <item>Select</item>
+        <item>Repair</item>
+        <item>Replaced</item>
+        <item>Adj.belt</item>
+        <item>Replaced Wire</item>
+        <item>Need Replace</item>
+    </string-array>
+
+    <string-array name="radiatorcap_list_array">
+        <item>Select</item>
+        <item>Repair</item>
+        <item>Replaced</item>
+        <item>Need to Replace</item>
+    </string-array>
+
+    <string-array name="mufflerraincap_list_array">
+        <item>Select</item>
+        <item>Repair</item>
+        <item>Replaced</item>
+        <item>Need to Replace</item>
+    </string-array>
+
+    <string-array name="coppertubing_list_array">
+        <item>Select</item>
+        <item>Check</item>
+        <item>Repair</item>
+        <item>Replace</item>
+    </string-array>
+
+    <string-array name="acceleratorcheck_list_array">
+        <item>Select</item>
+        <item>Check</item>
+        <item>Repair</item>
+        <item>Stuck Up</item>
+    </string-array>
+
+    <string-array name="turbo_charger_list_array">
+        <item>Select</item>
+        <item>Check &amp; Repair</item>
+        <item>Need Replace</item>
+    </string-array>
+
+    <string-array name="clutch_grease_hose_list_array">
+        <item>Select</item>
+        <item>Okay</item>
+        <item>Need Replace</item>
+    </string-array>
+
+    <string-array name="engine_skid_welded_list_array">
+        <item>Select</item>
+        <item>Yes</item>
+        <item>No</item>
+    </string-array>
+
+    <string-array name="access_way_job_location_list_array">
+        <item>Select</item>
+        <item>Clean</item>
+        <item>Need remove sand</item>
+    </string-array>
+
+    <string-array name="radio_task_list_2_array">
+        <item>Checking Fittings condition</item>
+        <item>Loading  Rack</item>
+        <item>Grease fittings condition</item>
+        <item>Gear head Condition</item>
+    </string-array>
+
+    <string-array name="radio_task_with_multi_option_list_array">
+        <item>Clutch</item>
+        <item>Fan belt</item>
+        <item>Belt\nCondition</item>
+        <item>Radiator\nClamp</item>
+        <item>Radiator hose\nCondition</item>
+        <item>Gear\nhead oil</item>
+    </string-array>
+
+
+</resources>
+

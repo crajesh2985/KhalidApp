@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingBottom="20dp"
+        android:paddingTop="10dp">
+
+        <TextView
+            android:id="@+id/tv_step1"
+            style="@style/StepLableStyle"
+            android:text="@string/str_one" />
+
+        <View style="@style/StepLineStyle" />
+
+        <TextView
+            android:id="@+id/tv_step2"
+            style="@style/StepLableStyle"
+            android:text="@string/str_two" />
+
+        <View style="@style/StepLineStyle" />
+
+        <TextView
+            android:id="@+id/tv_step3"
+            style="@style/StepLableStyle"
+            android:text="@string/str_three" />
+
+        <View style="@style/StepLineStyle" />
+
+        <TextView
+            android:id="@+id/tv_step4"
+            style="@style/StepLableStyle"
+            android:text="@string/str_four" />
+
+        <View style="@style/StepLineStyle" />
+
+        <TextView
+            android:id="@+id/tv_step5"
+            style="@style/StepLableStyle"
+            android:text="@string/str_five" />
+
+        <View style="@style/StepLineStyle" />
+
+        <TextView
+            android:id="@+id/tv_step6"
+            style="@style/StepLableStyle"
+            android:text="@string/str_six" />
+
+        <View style="@style/StepLineStyle" />
+
+        <TextView
+            android:id="@+id/tv_step7"
+            style="@style/StepLableStyle"
+            android:text="@string/str_seven" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/frame_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>
