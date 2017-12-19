@@ -7,20 +7,21 @@
 
     <TextView
         style="@style/TitleLabelStyle"
-        android:text="@string/str_supervisor_information" />
+        android:text="@string/str_supervisor_information"
+        android:focusable="true"
+        android:focusableInTouchMode="true"/>
 
     <View style="@style/TitleLineStyle" />
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:scrollbars="none">
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:focusable="true"
-            android:focusableInTouchMode="true"
             android:orientation="vertical">
 
             <TextView

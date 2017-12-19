@@ -10,7 +10,7 @@
     <string name="str_five">5</string>
     <string name="str_six">6</string>
     <string name="str_seven">7</string>
-    <string name="str_supervisor_information">Supervisor Information:</string>
+    <string name="str_supervisor_information">SUPERVISOR INFORMATION:</string>
     <string name="str_name">NAME</string>
     <string name="str_badge">BADGE</string>
     <string name="str_water_well">WATER WELL</string>
@@ -48,4 +48,5 @@
     <string name="str_need_replace">Need Replace</string>
     <string name="str_remarks">Remarks</string>
     <string name="str_finish">Finish</string>
+    <string name="str_step">STEP:</string>
 </resources>

@@ -1,10 +1,12 @@
 package com.app.pilot.adapter;
 
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
+import android.widget.CompoundButton;
 import android.widget.TextView;
 
 import com.app.pilot.R;
@@ -35,21 +37,23 @@ public class TaskListAdapter extends RecyclerView.Adapter<TaskListAdapter.ViewHo
     }
 
     @Override
-    public void onBindViewHolder(final ViewHolder holder, int position) {
+    public void onBindViewHolder(final ViewHolder holder, final int position) {
         holder.bindData(taskListBeen.get(position));
 
         //in some cases, it will prevent unwanted situations
-       /* holder.checkbox.setOnCheckedChangeListener(null);
+        holder.cbAdd.setOnCheckedChangeListener(null);
 
         //if true, your checkbox will be selected, else unselected
-        holder.checkbox.setChecked(numbers.get(position).isSelected());
+        //holder.checkbox.setChecked(numbers.get(position).isSelected());
 
-        holder.checkbox.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
+        holder.cbAdd.setOnCheckedChangeListener(new CompoundButton.OnCheckedChangeListener() {
             @Override
             public void onCheckedChanged(CompoundButton buttonView, boolean isChecked) {
-                numbers.get(holder.getAdapterPosition()).setSelected(isChecked);
+                Log.d("TAG","po ::" +position +":::::" + "isChecked ::::  " +isChecked);
+                taskListBeen.get(holder.getAdapterPosition()).setAddStatus(isChecked);
+                //notifyDataSetChanged();
             }
-        });*/
+        });
     }
 
     @Override
